@@ -1,0 +1,9 @@
+
+.bowerrc
+
+.idea/
+app/libs
+dist/
+gulpfile.js
+node_modules/
+package.json
