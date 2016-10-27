@@ -1,5 +1,5 @@
 html {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Times New Roman", Tahoma, sans-serif;
   font-size: 14px; }
 
 .button {
@@ -18,3 +18,36 @@ html {
   background-color: #e85408;
   color: #ffffff;
   text-decoration: none; }
+
+#our-services {
+  height: 640px;
+  width: 100%; }
+
+#our-services-head > h2 {
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 140px;
+  margin-bottom: 0;
+  text-align: center; }
+
+#our-services-head p {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center; }
+
+.our-services-column h3 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 100px;
+  text-align: center; }
+
+.our-services-column p {
+  margin-top: 0;
+  text-align: center; }
+
+#case-study {
+  height: 600px;
+  width: 100%;
+  background-color: #f3f3f3; }
