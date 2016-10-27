@@ -1,4 +1,20 @@
-body {
-    background-color: pink;
+html {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px; }
 
-}
+.button {
+  border: 1px solid #ffffff;
+  display: block;
+  border-radius: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+  line-height: 4em;
+  color: #ffffff; }
+
+.button:hover {
+  border-color: #e85408;
+  background-color: #e85408;
+  color: #ffffff;
+  text-decoration: none; }

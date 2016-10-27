@@ -1,0 +1,47 @@
+header {
+  height: 872px;
+  width: 100%;
+  overflow: hidden;
+  background-image: url("../img/h-bcg.png"); }
+
+.container {
+  height: 100%; }
+
+nav {
+  width: 100%;
+  height: 50px;
+  margin-top: 80px; }
+  nav > div {
+    display: inline-block; }
+  nav > .logo {
+    width: 185px;
+    height: 25px; }
+  nav > .navbar {
+    margin-left: 540px; }
+    nav > .navbar > ul {
+      list-style: none;
+      padding: 0; }
+      nav > .navbar > ul > li {
+        display: inline-block;
+        margin-right: 30px; }
+        nav > .navbar > ul > li > a {
+          color: #ffffff;
+          text-decoration: none;
+          text-transform: uppercase; }
+      nav > .navbar > ul > li:first-child {
+        margin-left: 0; }
+      nav > .navbar > ul > li:last-child {
+        margin-right: 0; }
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 250px;
+  font-size: 5em;
+  color: #ffffff;
+  font-weight: 600; }
+
+#h-button {
+  height: 55px;
+  width: 275px;
+  margin: 45px 0 0 433px; }
