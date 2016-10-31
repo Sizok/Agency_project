@@ -5,15 +5,13 @@ html
   font-family: "Times New Roman", Tahoma, sans-serif
   font-size: 14px
 .button
-  border: 1px solid #ffffff
+  border: 1px solid #000000
   display: block
   border-radius: 25px
   text-align: center
   text-transform: uppercase
   text-decoration: none
   font-weight: 600
-  line-height: 4em
-  color: #ffffff
 .button:hover
   border-color: $ButtonColor
   background-color: $ButtonColor
@@ -45,6 +43,61 @@ html
     margin-top: 0
     text-align: center
 #case-study
+  position: relative
   height: 600px
   width: 100%
   background-color: $TinyWhite
+.left-case, .right-case
+  display: inline-block
+.left-case
+  width: 550px
+  h2
+    text-transform: uppercase
+    font-weight: 600
+    text-align: left
+    margin-top: 150px
+    margin-bottom: 0
+  p
+    text-align: left
+    margin-top: 0
+    margin-bottom: 0
+  a
+    display: inline-block
+    height: 17px
+    width: 144px
+    margin-top: 50px
+    margin-bottom: 10px
+  #case-button
+    height: 40px
+    width: 155px
+    line-height: 3em
+    color: #000000
+.right-case
+  position: absolute
+  right: -70px
+  top: 50px
+  width: 640px
+  height: 557px
+.works
+  height: 1005px
+  width: 100%
+.work-button
+  color: #000000
+  display: inline-block
+  border: none
+  width: 160px
+  height: 45px
+  line-height: 3.5em
+  margin-top: 100px
+  margin-bottom: 80px
+.works a:first-child
+  margin-left: 285px
+.works a:last-child
+  margin-right: 285px
+.box
+  height: 246px
+  width: 246px
+  border: 2px solid $TinyWhite
+  background-color: grey
+  padding: 10px
+  margin-bottom: 50px
